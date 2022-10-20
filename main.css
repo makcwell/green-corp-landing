@@ -3,13 +3,17 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 1;
 }
 
 body {
     font-family: 'Raleway', sans-serif;
     color: #213053;
     margin: 0;
-    padding: 10px;
+    padding: 0px 10px;
 }
 
 .header__logo {
@@ -39,9 +43,9 @@ button {
     padding: 15px;
 }
 
-.about__images {
+/* .about__images {
     display: flex;
-}
+} */
 
 .about__image {
     width: 500px;
@@ -50,7 +54,19 @@ button {
 .about__sun-image {
     width: 100px;
     height: 100px;
+    animation: rotation 10s infinite linear;
+    position: absolute;
 }
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0);
+    }
+  
+    100% {
+        transform: rotate(360deg);
+    }
+ }
 
 .about {
     display: flex;
@@ -142,7 +158,6 @@ button {
     padding: 0px 20px;
     border-radius: 15px;
     border: none;
-
 }
 
 .form__submit {
@@ -171,7 +186,7 @@ footer {
     font-weight: 600;
 }
 
-.footer__conteiner{
+.footer__conteiner {
     display: flex;
     justify-content: center;
 }

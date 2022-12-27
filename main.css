@@ -1,3 +1,10 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #213053;
+  margin: 0;
+  padding: 0px 10px;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -16,13 +23,6 @@ header {
 .header__scrolled {
   background-color: white;
   box-shadow: 0 12px 34px -11px rgb(65 62 101 / 10%);
-}
-
-body {
-  font-family: 'Raleway', sans-serif;
-  color: #213053;
-  margin: 0;
-  padding: 0px 10px;
 }
 
 .header__logo {
@@ -52,9 +52,6 @@ button {
   padding: 15px;
 }
 
-/* .about__images {
-    display: flex;
-} */
 .about {
   position: relative;
   padding-top: 200px;
@@ -206,12 +203,6 @@ button:hover {
   padding: 115px 60px;
 }
 
-@media (max-width: 720px) {
-  .features {
-    padding: 50px 10px;
-  }
-}
-
 .cards {
   display: grid;
   grid-gap: 50px;
@@ -253,12 +244,6 @@ button:hover {
 
 .card__logo.green {
   color: #22a030;
-}
-
-@media (max-width: 720px) {
-  .cards {
-    grid-template-columns: auto;
-  }
 }
 
 .features__border {
@@ -318,31 +303,6 @@ button:hover {
   color: #ff7039;
 }
 
-@media (max-width: 720px) {
-  .features__feedback {
-    flex-direction: column;
-  }
-
-  .features__feedback-left {
-    margin-right: 0;
-  }
-
-  .features__feedback-left h2,
-  .features__box h3 {
-    font-size: 36px;
-  }
-
-  .features__feedback-right {
-    flex-direction: column;
-    align-items: initial;
-  }
-
-  .features__savings-box {
-    margin-right: 0;
-    margin-bottom: 30px;
-  }
-}
-
 .promo {
   display: flex;
 }
@@ -358,21 +318,6 @@ button:hover {
 .promo__right {
   background: #dd5f26;
   padding: 160px 60px;
-}
-
-@media (max-width: 720px) {
-  .promo {
-    flex-direction: column-reverse;
-  }
-
-  .promo__right {
-    padding: 50px 10px;
-  }
-
-  .promo__image {
-    width: 100%;
-    height: 500px;
-  }
 }
 
 .promo__text {
@@ -423,7 +368,7 @@ footer {
   font-weight: 600;
 }
 
-.footer__conteiner {
+.footer__container {
   display: flex;
   justify-content: center;
 }
@@ -505,6 +450,50 @@ footer {
   .about__sun-image {
     width: 75px;
     height: 75px;
+  }
+
+  .features {
+    padding: 50px 10px;
+  }
+
+  .cards {
+    grid-template-columns: auto;
+  }
+
+  .features__feedback {
+    flex-direction: column;
+  }
+
+  .features__feedback-left {
+    margin-right: 0;
+  }
+
+  .features__feedback-left h2,
+  .features__box h3 {
+    font-size: 36px;
+  }
+
+  .features__feedback-right {
+    flex-direction: column;
+    align-items: initial;
+  }
+
+  .features__savings-box {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .promo {
+    flex-direction: column-reverse;
+  }
+
+  .promo__right {
+    padding: 50px 10px;
+  }
+
+  .promo__image {
+    width: 100%;
+    height: 500px;
   }
 
   .form {

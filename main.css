@@ -2,7 +2,7 @@ body {
   font-family: 'Raleway', sans-serif;
   color: #213053;
   margin: 0;
-  padding: 0px 10px;
+  padding: 0 10px;
 }
 
 header {
@@ -35,13 +35,13 @@ a {
 }
 
 header a {
-  font-style: 15px;
+  font-size: 15px;
   font-weight: 600;
   margin-right: 25px;
 }
 
 button {
-  font-family: 'Raleway', sans—serif;
+  font-family: 'Raleway', sans—serif, serif;
   font-size: 15px;
   color: #fff;
   background-color: #23a030;
@@ -103,13 +103,13 @@ button {
 }
 
 .about p {
-  font-style: 18px;
+  font-size: 18px;
   line-height: 30px;
   opacity: 0.8;
 }
 
 .about button {
-  font-style: 18px;
+  font-size: 18px;
   border-radius: 20px;
   padding: 20px 25px;
   margin-top: 20px;
@@ -164,7 +164,7 @@ button {
   font-size: 18px;
   color: #213053;
   height: 60px;
-  padding: 0px 20px;
+  padding: 0 20px;
   border-radius: 15px;
   border: none;
 }
@@ -173,7 +173,7 @@ button {
   font-size: 18px;
   color: #213053;
   height: 60px;
-  padding: 0px 20px;
+  padding: 0 20px;
   border-radius: 15px;
   border: none;
 }
